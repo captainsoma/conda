@@ -1,0 +1,48 @@
+/* This pipeline will run make build and make ci-test */
+
+pipeline {
+agent {
+    kubernetes {
+      inheritFrom 'default'
+      defaultContainer 'ci'
+    }
+  }
+environment {
+        AWS_ROLE_SESSION_NAME = "jenkins-repo"
+        AWS_DEFAULT_REGION = "us-east-1"
+    }
+  options {
+    skipDefaultCheckout true
+  }
+  stages {
+    stage('Checkout aecobra/conda_repo_cli Git Repo') {
+      steps {
+        container('ci') {
+          checkout scm
+        }
+      }
+    }
+    stage('Run make setup') {
+      steps {
+        container('ci') {
+          sh "eval \"\$(/opt/conda/bin/conda shell.posix hook)\" && make setup"
+        }
+      }
+    }
+    stage('Run CLI Tests') {
+      steps {
+        container('ci') {
+          sh "make integration"
+        }
+      }
+    }
+  }
+  post {
+    success {
+      slackSend (color: 'good', message: "SUCCESS: <${env.BUILD_URL}|${env.JOB_NAME}>")
+    }
+    failure {
+      slackSend (color: 'danger', message: "FAILURE: <${env.BUILD_URL}|${env.JOB_NAME}>")
+    }
+  }
+}

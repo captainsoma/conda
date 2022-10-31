@@ -1,0 +1,18 @@
+{
+  "id": "e48ab9da-f14c-4770-a15b-11510b72e2d2",
+  "name": "test_channel_1475",
+  "description": "",
+  "privacy": "public",
+  "artifact_count": 0,
+  "download_count": 0,
+  "subchannel_count": 0,
+  "group_count": 0,
+  "mirror_count": 0,
+  "filters": {},
+  "owners": [
+    "john"
+  ],
+  "created": "2021-04-05T15:41:48.759103+00:00",
+  "updated": null,
+  "parent": "test_channel_1475"
+}

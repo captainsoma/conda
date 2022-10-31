@@ -1,0 +1,11 @@
+{
+  "user_id": "730ab199-0a17-4aa6-ba02-f205440be8dd",
+  "username": "john",
+  "roles": [
+    "author"
+  ],
+  "default_channel_name": "john",
+  "dbroles": [
+    "author"
+  ]
+}

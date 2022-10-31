@@ -1,0 +1,7 @@
+site: repo-automation
+user1:
+  password: password
+  username: john
+user2:
+  password: password
+  username: fpliger

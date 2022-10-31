@@ -1,0 +1,31 @@
+ {
+  "total_count": 1,
+  "items": [
+    {
+      "name": "numpy",
+      "family": "conda",
+      "channel": "test_channel_1234",
+      "subchannel": "test_channel_1234",
+      "privacy": "public",
+      "metadata": {
+        "home": "http://numpy.scipy.org/",
+        "name": "numpy",
+        "dev_url": "https://github.com/numpy/numpy",
+        "doc_url": "https://docs.scipy.org/doc/numpy-1.15.4/reference/",
+        "license": "BSD 3-Clause",
+        "subdirs": [
+          "osx-64"
+        ],
+        "summary": "Array processing for numbers, strings, records, and objects.",
+        "version": "1.15.4",
+        "description": "NumPy is the fundamental package needed for scientific computing with Python.\n",
+        "build_number": 0,
+        "install_cmd": "conda install -c test_channel_1234/test_channel_1234 numpy"
+      },
+      "download_count": 0,
+      "file_count": 1,
+      "cve_count": 0,
+      "updated_at": "2021-04-05T16:08:14.966000+00:00"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "scopes": [
+    "channel:create",
+    "channel:view",
+    "channel:edit",
+    "channel:delete",
+    "channel:history",
+    "channel:view-artifacts",
+    "channel.default-channel:edit",
+    "channel.group:edit",
+    "subchannel:create",
+    "subchannel:view",
+    "subchannel:edit",
+    "subchannel:delete",
+    "subchannel:history",
+    "subchannel:view-artifacts",
+    "subchannel.group:edit",
+    "artifact:create",
+    "artifact:view",
+    "artifact:edit",
+    "artifact:download",
+    "artifact:delete"
+  ]
+}

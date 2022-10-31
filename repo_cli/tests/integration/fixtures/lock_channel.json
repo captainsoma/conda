@@ -1,0 +1,17 @@
+{
+  "id": "4669c328-5236-43a2-8eb0-a10b18abd781",
+  "name": "test_channel_1234",
+  "description": "",
+  "privacy": "private",
+  "artifact_count": 1,
+  "download_count": 0,
+  "subchannel_count": 1,
+  "group_count": 1,
+  "mirror_count": 0,
+  "filters": {},
+  "owners": [
+    "john"
+  ],
+  "created": "2021-04-05T15:41:44.555105+00:00",
+  "updated": null
+}

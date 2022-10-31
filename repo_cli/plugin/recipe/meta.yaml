@@ -1,0 +1,23 @@
+package:
+  name: repo-cli
+  version: 1.0.25
+
+source:
+  path: ../
+
+build:
+  script: $PYTHON -m pip install --no-deps .
+
+requirements:
+  host:
+    - python >=3.7
+
+  run:
+    - conda
+    - python >=3.7
+
+about:
+  home: https://github.com/anaconda/conda-repo-cli
+  license: BSD-3-Clause
+  license_file: LICENSE
+  summary: Command line interface for Anaconda Server

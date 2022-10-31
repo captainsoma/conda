@@ -1,0 +1,98 @@
+{
+  "ckey": "osx-64/numpy-1.15.4-py37hacdab7b_0.tar.bz2",
+  "name": "numpy",
+  "family": "conda",
+  "type": "conda_package_1",
+  "channel": "test_channel_1234",
+  "subchannel": null,
+  "metadata": {
+    "about.json": {
+      "home": "http://numpy.scipy.org/",
+      "tags": [],
+      "extra": {
+        "final": true,
+        "parent_recipe": {
+          "name": "numpy_and_dev",
+          "path": "/opt/concourse/worker/volumes/live/a1ea37ea-4c32-48bd-5408-0b28a492afe3/volume/rsync-recipes/numpy_and_dev-1.15.4-blas_impl_mkl-python_3.7-on-osx",
+          "version": "1.15.4"
+        },
+        "recipe-maintainers": [
+          "jakirkham",
+          "msarahan",
+          "pelson",
+          "rgommers",
+          "ocefpaf"
+        ],
+        "copy_test_source_files": true
+      },
+      "dev_url": "https://github.com/numpy/numpy",
+      "doc_url": "https://docs.scipy.org/doc/numpy-1.15.4/reference/",
+      "license": "BSD 3-Clause",
+      "summary": "Array processing for numbers, strings, records, and objects.",
+      "channels": [
+        "defaults"
+      ],
+      "keywords": [],
+      "description": "NumPy is the fundamental package needed for scientific computing with Python.\n",
+      "identifiers": [],
+      "license_file": "LICENSE.txt",
+      "conda_private": false,
+      "conda_version": "4.5.11",
+      "conda_build_version": "3.17.4"
+    },
+    "index.json": {
+      "fn": "numpy-1.15.4-py37hacdab7b_0.tar.bz2",
+      "md5": "33dc44d99f7a1eff40e316a7ba1f3164",
+      "arch": "x86_64",
+      "name": "numpy",
+      "size": 47757,
+      "build": "py37hacdab7b_0",
+      "sha256": "ab4bf5a589e859ebac289f316dd013d4d97d6bf1e825e99128a100cbf6351344",
+      "subdir": "osx-64",
+      "depends": [
+        "blas 1.0 mkl",
+        "libgfortran >=3.0.1",
+        "mkl >=2019.1,<2020.0a0",
+        "mkl_fft >=1.0.6,<2.0a0",
+        "mkl_random >=1.0.2,<2.0a0",
+        "numpy-base 1.15.4 py37h6575580_0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "version": "1.15.4",
+      "platform": "osx",
+      "timestamp": 1544718731768,
+      "build_number": 0
+    },
+    "repodata_record.json": {
+      "fn": "numpy-1.15.4-py37hacdab7b_0.tar.bz2",
+      "md5": "33dc44d99f7a1eff40e316a7ba1f3164",
+      "arch": "x86_64",
+      "name": "numpy",
+      "size": 47757,
+      "build": "py37hacdab7b_0",
+      "sha256": "ab4bf5a589e859ebac289f316dd013d4d97d6bf1e825e99128a100cbf6351344",
+      "subdir": "osx-64",
+      "depends": [
+        "blas 1.0 mkl",
+        "libgfortran >=3.0.1",
+        "mkl >=2019.1,<2020.0a0",
+        "mkl_fft >=1.0.6,<2.0a0",
+        "mkl_random >=1.0.2,<2.0a0",
+        "numpy-base 1.15.4 py37h6575580_0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "version": "1.15.4",
+      "platform": "osx",
+      "timestamp": 1544718731768,
+      "build_number": 0
+    }
+  },
+  "signatures": null,
+  "created_at": "2021-04-05T15:56:43.112000+00:00",
+  "updated_at": "2021-04-05T15:56:43.112000+00:00",
+  "state": "active",
+  "size": 47757,
+  "url": "http://localhost/api/repo/test_channel_1234/osx-64/numpy-1.15.4-py37hacdab7b_0.tar.bz2"
+}
