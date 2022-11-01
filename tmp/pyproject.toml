@@ -10,7 +10,7 @@ requires-python = ">=3.7"
 dependencies = ["conda"]
 
 [tools.setuptools]
-py_modules=["ascii_graph"]
+py_modules=["repo"]
 
 [project.entry-points.conda]
-ascii-graph = "ascii_graph"
+repo = "repo"
